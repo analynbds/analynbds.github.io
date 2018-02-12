@@ -1,0 +1,681 @@
+@charset "UTF-8";
+/* CSS Document */
+
+body {
+    overflow-x: hidden !important;
+    height: 100%;
+}
+
+/*
+* === FONT STYLES ===
+*/
+
+a {
+	color: #000;
+}
+
+a:hover {
+	text-decoration: underline solid #000;
+	color: #000;
+}
+
+.btn-label {
+    margin-top: .5rem;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 700;
+	font-size:.75em;
+    color: #2B2828;
+    text-transform: uppercase;	
+	letter-spacing: .6px;
+	margin: 0;
+	clear: left;
+	display:block;
+}
+h1 {
+	font-family: 'Playfair Display', serif;
+	font-size:3rem;
+	margin-bottom:1.2rem;
+	display:inline-block;
+	padding-bottom: .6rem;
+	border-bottom: 2.0px solid #000;
+}
+h2 {
+	font-family: 'Playfair Display', serif;
+	font-size:2.2rem;
+	margin: 0 0 .3rem 0;
+	line-height: 2.85rem;
+}
+h3 {
+	font-family: 'Playfair Display', serif;
+	color:#2B2828;
+	font-size:2.0rem;
+	margin: 2rem 0 .9rem 0;
+}
+h4 {
+	font-family: 'Open Sans', sans-serif;
+    color: #2E2E2E;
+	font-size:1.1rem;
+	line-height: 1.7rem;
+    padding-bottom: 1rem;
+}
+.quote {
+    font-family: 'Open Sans', sans-serif;
+    color: #2E2E2E;
+	font-size:1.3rem;
+	letter-spacing: .03rem;
+}
+.casephoto-hl {
+    font-family: 'Playfair Display', serif;
+	color:#2B2828;
+	font-size:1.55rem;
+    line-height: 2.0rem;
+    margin-bottom: .4rem;
+}
+p {
+	font-family: 'Open Sans', sans-serif;
+	line-height: 1.98rem;
+	margin: .5rem 0 1.7rem 0;
+}
+.nav-item {
+	font-family: 'Open Sans', sans-serif;
+}
+
+.tag {
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 700;
+	font-size:.8em;
+    color: #2B2828;
+    text-transform: uppercase;	
+	letter-spacing: .6px;
+	margin-bottom: .5rem;
+	clear: left;
+	display:inline-block;
+	border-bottom: .1rem solid #333;
+}
+
+.jumbotron {
+	background-color: transparent;
+}
+.hero-home{
+    background-color: #ffffff;
+	padding: 10rem 1rem;
+}
+.container-fluid {
+    padding: 0;
+}
+.container {
+    padding-left: 5px;
+    padding-right: 5px;
+}
+.portfolio-image {
+    height: 20rem;
+}
+.navbar-default {
+	background-color: transparent !important;
+	border-color: transparent;
+	background-image:none;
+	box-shadow:none;
+}
+.nav-link:hover {
+	text-decoration: underline solid #000;
+}
+
+.other-work-container {
+    max-width: 1400px;
+	width:auto;
+    height: auto;
+    background-color: #FFF;
+	margin: 10rem auto 0 auto;
+    padding-top: 3rem;
+    padding-bottom: 3rem;
+}
+#about-me {
+    padding-bottom:7rem;
+    padding-top: 3rem;
+}
+
+
+.work-1{
+    background-color: #31CAAA;
+}
+.work-2 {
+    background-color: #63A067;
+}
+.work-3{
+    background-color: #6E86B4;
+}
+.work-4 {
+    background-color: #BBB0D0;
+}
+
+.logo {
+    width: 8rem;
+    margin-left: auto;
+    margin-right: auto;
+}
+.icon-bar {
+    background-color: #000000;
+}
+#social {
+	margin: 1rem 0 1rem 0;
+}
+footer {
+    margin: 9rem 0 4rem 0;
+}
+#social img {
+	width: 32px;
+	margin-left: 3px;
+}
+.profile-photo {
+	margin:0 0 2rem 0;
+	width:18rem;
+}
+.thanks-title {
+    font-family: palatino;
+    font-style: italic;
+    font-size: 1.5rem;
+}
+.extra-padding {
+    padding: 3rem;
+}
+.thanks-container {
+    height: 8rem;
+	padding-top: 3rem;
+	background-color: #E5E5E5
+}
+.work-hero {
+    height: 25em;
+    margin-bottom: 1rem;
+    width: auto;
+}
+#drive-hero   {
+    background-color: #31CAAA;
+}
+.project-info {
+    margin-left: auto;
+    margin-right: auto;
+    padding: 6rem 1rem 7rem 1rem;
+}
+.project-info-container {
+    width: auto;
+    margin: 0;
+    min-height: 15rem;
+}
+#work-1 {
+    background-color: #BCBCBC;
+}
+.wp-color-block {
+    background-color: #FF1519;
+    width: 100%;
+    height: 100%;
+	position: absolute;
+	z-index: -1;
+}
+.project-text-container {
+	display: table;
+	height: 21rem;
+	width: auto;
+    margin: 0 auto;
+}
+.break {
+    height: 15rem;
+    background-color: #ECECEC;
+    margin-top: 5em;
+    margin-bottom: 5em;
+}
+.project-text {
+    display: table-cell;
+    vertical-align: middle;
+    height:100%;
+}
+.drive-logo   {
+    width: 200px;
+}
+#photo-left-drive-1 {
+    background-color: #31CAAA;
+    background-image: url(../images/drive-electric/drive-electric-site.png);
+}
+#flavored-hero {
+    background-color: #63A067;
+}
+#left-photo-flavored-1 {
+    background-color: #63A067;
+    background-image: url(../images/flavored/flavored_app_fan.jpg);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: 0% bottom;
+}
+#newspaper-hero {
+    background-color: #6E86B4;
+}
+#photo-left-newspaper-1 {
+    background-color: #658dc0;
+    background-image: url(../images/newspaper/DP-Front-Pages-1-single.jpg);
+}
+#photo-right-newspaper-1 {
+    background-color: #c59b61;
+    background-image: url(../images/newspaper/DP-Front-Pages-2-single.jpg);
+}
+.center-photo {
+	background-position: center center;
+	background-size: contain;
+    background-repeat: no-repeat;
+}
+#hero-15places  {
+    background-color: #BBB0D0;
+}
+#photo-left-15places-1 {
+    background-color: #BCADCE;
+    background-image: url(../images/15places/15places-desktop.jpg);
+}
+#photo-right-15places-1  {
+    background-color: #beaed2;
+    background-image: url(../images/15places/15places-mobile.jpg);
+}
+.portfolio a {
+	text-align: center;
+	display: table-cell;
+    vertical-align: middle;
+	padding-top: 50px;
+}
+
+.work-hero img {
+	padding: 2.5rem 0;
+}
+
+a.about {
+    display: block;
+    position: relative;
+    top: -10px;
+    visibility: hidden;
+}
+.shadow {
+	box-shadow: 0 19px 38px rgba(0,0,0,0.30), 0 15px 12px rgba(0,0,0,0.22);
+	margin-bottom:4rem;
+}
+.other-case-study-photo{
+    max-height: 200px;
+	height: 150px;
+	width:auto;
+	margin: 0 1rem 1rem 1rem;
+}
+.case-study-row {
+	justify-content: center;
+}
+
+.photo {
+    width:auto;
+    margin:0;
+    padding:0;
+    height:20rem;
+}
+
+
+.case-bg-wp {
+	background-color:#F5F0C4;
+}
+
+.btn-label:hover {
+	color:#000000;
+	text-decoration: underline solid #000;
+}
+
+.case-bg-drive {
+	background: #CCF5F6;
+}
+
+.case-bg-pennten {
+    background: #DCEDFC;
+}
+.case-bg-dprecruitment {
+    background: #FCEEEE;
+}
+.case-bg-frontpages {
+    background: #FCF4EA;
+}
+
+.border {
+  position: fixed;
+  top: 0;
+  left: 0;
+  border: 12px solid #000;
+  width: 100%;
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.case-bg-flavored {
+	background:#C3F2C6;
+}
+.case-bg-15places {
+    background: #F2E8F9;
+}
+
+.case-bg-dpredesign {
+	background:#F6D5D5;
+}
+
+.case-photo-wp {
+    background-image: url(../images/washington-place/bg-wp-2.jpg);
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: top;
+}
+.case-photo-drive {
+    background-image: url(../images/drive-electric/bg-drive.jpg);
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: top;
+    overflow:visible;
+}
+.case-photo-flavored {
+    background-image: url(../images/flavored/bg-flavored.jpg);
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: top;
+    overflow:visible;
+}
+
+.case-photo-dpredesign {
+    background-image: url(../images/dpredesign/bg-redesign.jpg);
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: top;
+    overflow:visible;
+}
+.video-wrapper {
+    width: 97%;
+    margin: 0 auto 3rem auto;
+}
+.case-cover {
+    max-height: 300px;
+    margin: 0;
+	padding:0;
+}
+
+.case-cover > img {
+    margin:auto;
+    width: auto;
+}
+.three-column {
+    display: inline-block;
+    margin: 0;
+    padding: 0;
+}
+
+.case-study-full > div {
+	height: auto;
+}
+
+
+/* Larger than 992px (large - desktops and up)*/
+@media (min-width: 767px) {
+	.text-container {
+		padding: 0 3.5rem 0 3.3rem;
+        width:100%;
+	}
+	.navbar {
+	padding: 0.5rem 3rem;
+}
+	#about-me {
+		width:50%;
+	}
+    .video-wrapper video {
+        width: 400px;
+    }
+    .three-column {
+        width: 33%;
+    }
+    .case-study {
+        width: 48%;
+        float:left;
+        margin:1%;
+    }
+    .case-study-left {
+        position: relative;
+        left:0;
+        width: 48.5%;
+    }
+    .case-study-right {
+        position: absolute;
+        right:0;
+        width: 48.5%
+    }
+    .case-study-full > div {
+        padding: 1.8rem;
+    }
+}
+
+
+.row {
+	width:90%;
+    height: auto;
+	margin:1rem auto 0 auto;
+	padding: 1rem 0;
+}
+
+
+.intro {
+    font-size: 1.18rem;
+	line-height: 2.3rem;
+    color: rgba(69,69,69,1.00);
+	padding-right: 1rem;
+	margin: 0 0 2rem 0;
+}
+
+hr {
+	margin: 2rem 0 3rem 0;
+	border-top: 1px solid #000;
+}
+
+.case-photo > img {
+	width: 100px;
+	width: 100%;	
+}
+
+.case-photo-small {
+	width: 100%;
+    margin-top: 2rem;
+}
+
+.case-photo {
+	display: block;
+	margin: 2rem 0 3rem 0;
+}
+
+.caption {
+	font-size:.81rem;
+	margin:.4rem 0;
+	line-height: 1.4rem;
+	color: #757575;
+}
+
+.section {
+	margin-top: 4rem;
+}
+
+.email {
+	
+}
+
+#email {
+	width: 100%;
+	margin: .8rem 0 9rem 0;
+}
+
+#email > h3 {
+	font-size: 2rem;
+}
+
+.callOut {
+	margin: 0 0 0 0;
+}
+
+
+.headline {
+    padding-bottom: .5rem;
+	margin:0;
+}
+/* Smaller than 992px (medium)*/
+@media (max-width: 767px) {
+	.text-container {
+		padding: .7rem 1.6rem;
+}
+	#brand {
+		display:none;
+	}
+	.navbar {
+		padding:0;}
+    h1 {
+        font-size:2rem;
+    }
+    h2 {
+        font-size: 1.9rem;
+        line-height: 2.5rem;
+    }
+    
+    h3 {
+        font-size: 1.7rem;
+    }
+    h4 {
+        font-size: 1.1rem;
+        line-height: 1.9rem;
+    }
+    .intro {
+        font-size: .5rem;
+	   line-height: 2.3rem;
+    }
+    .quote {
+	font-size:1.0rem;
+	line-height: 1.6rem;
+    }
+    p {
+        font-size: .95rem;
+        line-height: 1.7rem;
+    }
+    .p-small {
+        font-size:.86rem;
+        line-height: 1.5rem;
+    }
+    .caption {
+        font-size:.9rem;
+        line-height: 1.3rem;
+    }
+    .navbar-brand {
+        padding: 0;
+    }
+	.navbar-toggler{
+		margin-top:1em;
+	}
+	.navbar-nav {
+        padding: 3em;
+        background: rgba(255,255,255,1);
+        box-shadow: 0 10px 38px rgba(0,0,0,0.10);
+	}
+	.project-info {
+		padding: 5rem 1rem;
+	}
+	.project-text-container {
+		height:6rem;
+	}
+	.work-hero {
+		height:13rem;
+        margin-bottom: 1rem;
+	}
+    .video-wrapper video {
+        width:300px;
+    }
+    .three-column {
+        width: 100%;
+    }
+    .skillset {
+        text-align: center;
+    }
+    .case-study-left {
+        width: 100%;
+        margin-bottom: 1rem;
+    }
+    .case-study-right {
+        width: 100%;
+    }
+    .row {
+        margin: 0 auto;
+        padding-bottom: 0;
+    }
+
+    .casephoto-hl {
+        font-size:.9rem;
+        line-height: 1.3rem;
+    }
+    .photo {
+		height:15rem;
+	}
+    .case-study-full > div {
+        padding: .4rem .6rem;
+		max-height: 9rem;
+    }
+    .big-case-study {
+        margin-top:1rem;
+    }
+    .btn-label {
+        font-size: .67rem;
+        margin-bottom: 1rem;
+    }
+    .tag {
+        font-size: .6rem;
+    }
+    
+    
+    
+    
+}
+p > a {
+    text-decoration: underline;
+}
+
+
+.bulleted-p {
+    margin:0;
+    padding:0;
+    line-height: 3rem;
+}
+
+.footer-blurb {
+    background: #F2F2F2;
+    width: 100%;
+    height: auto;
+    text-align: center;
+    padding: 3rem 4rem 2rem 4rem;
+    margin-top: 9rem;
+    
+}
+.casephoto-thumb {
+    width: 30%;
+    margin-right: 2%;
+    vertical-align: middle;
+}
+
+.casephoto-text {
+    width: 64%;
+    display: inline-block;
+    vertical-align: middle;
+}
+
+
+
+
+
+
+
+
+
+.next-case-photo {
+    height: 7rem;
+    margin: 1rem;
+}
+
+.unfinished-title {
+    margin-top: 4rem;
+}
