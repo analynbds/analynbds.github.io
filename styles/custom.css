@@ -54,6 +54,13 @@ h3 {
 h4 {
 	font-family: 'Open Sans', sans-serif;
     color: #2E2E2E;
+	font-size:1.48rem;
+	line-height: 1.7rem;
+    padding-bottom: 1rem;
+}
+h5 {
+	font-family: 'Open Sans', sans-serif;
+    color: #2E2E2E;
 	font-size:1.1rem;
 	line-height: 1.7rem;
     padding-bottom: 1rem;
@@ -490,7 +497,7 @@ hr {
 
 .caption {
 	font-size:.81rem;
-	margin:.4rem 0;
+	margin:.4rem 0 2.7rem 0;
 	line-height: 1.4rem;
 	color: #757575;
 }
@@ -543,7 +550,7 @@ hr {
     h3 {
         font-size: 1.7rem;
     }
-    h4 {
+    h5 {
         font-size: 1.1rem;
         line-height: 1.9rem;
     }
