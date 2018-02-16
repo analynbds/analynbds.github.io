@@ -57,6 +57,7 @@ h4 {
 	font-size:1.48rem;
 	line-height: 1.7rem;
     padding-bottom: 1rem;
+    margin-top: 1rem;
 }
 h5 {
 	font-family: 'Open Sans', sans-serif;
@@ -326,21 +327,6 @@ a.about {
 	color:#000000;
 	text-decoration: underline solid #000;
 }
-
-.case-bg-drive {
-	background: #CCF5F6;
-}
-
-.case-bg-pennten {
-    background: #DCEDFC;
-}
-.case-bg-dprecruitment {
-    background: #FCEEEE;
-}
-.case-bg-frontpages {
-    background: #FCF4EA;
-}
-
 .border {
   position: fixed;
   top: 0;
@@ -363,7 +349,19 @@ a.about {
 .case-bg-dpredesign {
 	background:#F6D5D5;
 }
+.case-bg-pennten {
+    background: #DCEDFC;
+}
+.case-bg-drive {
+	background: #CCF5F6;
+}
 
+.case-bg-dprecruitment {
+    background: #FCEEEE;
+}
+.case-bg-frontpages {
+    background: #FCF4EA;
+}
 .case-photo-wp {
     background-image: url(../images/washington-place/bg-wp-2.jpg);
     background-repeat: no-repeat;
@@ -387,6 +385,14 @@ a.about {
 
 .case-photo-dpredesign {
     background-image: url(../images/dpredesign/bg-redesign.jpg);
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: top;
+    overflow:visible;
+}
+
+.case-photo-pennten {
+    background-image: url(../images/pennten/bg-pennten.jpg);
     background-repeat: no-repeat;
     background-size: contain;
     background-position: top;
@@ -430,7 +436,7 @@ a.about {
 		width:50%;
 	}
     .video-wrapper video {
-        width: 400px;
+        width: 500px;
     }
     .three-column {
         width: 33%;
@@ -596,7 +602,7 @@ hr {
         margin-bottom: 1rem;
 	}
     .video-wrapper video {
-        width:300px;
+        width:330px;
     }
     .three-column {
         width: 100%;
