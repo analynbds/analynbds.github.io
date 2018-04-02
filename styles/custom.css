@@ -351,13 +351,14 @@ a.about {
     background: #DCEDFC;
 }
 
+.case-bg-other-designs {
+    background: #f8f8f8;
+}
+
 .case-bg-photography {
     background: #fdeedd;
 }
 
-.case-bg-other-designs {
-    background: #f8f8f8;
-}
 .case-bg-drive {
 	background: #CCF5F6;
 }
