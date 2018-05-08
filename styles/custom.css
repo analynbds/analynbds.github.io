@@ -525,7 +525,7 @@ hr {
 
 #email {
 	width: 100%;
-	margin: .8rem 0 9rem 0;
+	margin: .8rem 0 3rem 0;
 }
 
 #email > h3 {
@@ -719,3 +719,7 @@ p > a {
 
 
 
+
+main {
+    padding-top: 15em;
+}
